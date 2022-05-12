@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Contacto</title>
+    <meta name="description" content="Venta de ropa de trabajo y uniformes">
+    <meta name="keywords" content="CALZADO, SEGURIDAD, UNIFORMES, COMPRAR">
+</head>
+<body>  
+    <div class="grid">
+        <div class="grid-item-header">
+            <header class="header">
+                <img class="header-section-logo" src="../images/logo.png" alt="Logo">  
+                
+                <nav class="header-menu">  
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li> 
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="contacto.html">Contacto</a></li> 
+                    </ul>
+                    <h1 class="header-h1">Distribución de Indumentaria de Trabajo y Uniformes</h1><br>
+                </nav>           
+            </header>
+            <header class="header-responsive">
+                <img class="header-responsive-section-logo" src="../images/logo.png" alt="Logo">  
+                
+                <nav class="header-responsive-menu">  
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li> 
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="contacto.html">Contacto</a></li> 
+                    </ul>
+                    <h1 class="header-responsive-h1">Distribución de Indumentaria de Trabajo y Uniformes</h1><br>
+                </nav>           
+            </header>
+        </div>
+        <div class="grid-item-main">
+            <section class="cuerpo-contacto">
+                <form class="formulario" action="enviar.php" method="post">
+                    <fieldset>
+                        <legend>Contactate con nosotros!</legend>
+                    <label for="">Nombre</label>
+                    <input type="text" placeholder="Escribe tu nombre">
+                    <br>
+                    <label for="">Apellido</label>
+                    <input type="text" placeholder="Escribe tu apellido">
+                    <br>
+                    <input name="sexo" type="radio">
+                    <label for="">Hombre</label>
+                    <br>
+                    <input name="sexo" type="radio">
+                    <label for="">Mujer</label>
+                    <br>
+                    <input name="sexo" type="radio">
+                    <label for="">No definido</label>
+                    <br>
+                    <label for="">Correo</label>
+                    <input type="mail" placeholder="Escribe tu mail">
+                    <br>
+                    <label for="">Contraseña</label>
+                    <input type="password" placeholder="Escribe tu contraseña">
+                    <br>
+                    <label for="">Teléfono</label>
+                    <input type="numbre" placeholder="Escribe tu teléfono">
+                    <br>
+                    <textarea name="comentarios" id="comentarios" cols="30"
+                    rows="5" placeholder="Deja un comentario..."></textarea>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">Acepta los términos y condiciones</label>
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar"> 
+                    <!-- enviar -->
+                    <input type="reset" value="Borrar">
+                    <!-- resetear -->
+                    </fieldset>    
+                </form>
+                <img src="../images/dibu.jpg" alt="Dibujo">
+            </section>
+        </div>    
+        <div class="grid-item-footer">
+            <footer>
+                <b>All rights reserved.2022</b> 
+            </footer>
+        </div>
+    </div>    
+</body>
+</html>
